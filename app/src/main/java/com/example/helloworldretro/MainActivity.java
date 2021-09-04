@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
                     //String res=response.body().string();
                     //JSONObject jsonObject=response.body().string();
                     ///https://www.tutorialspoint.com/android/android_json_parser.htm
+                    //https://abhiandroid.com/programming/json
                     /*
                     * http://192.168.0.31/PatientPortals/api/login
 
