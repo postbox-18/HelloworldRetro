@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                 try {
                     String json_obj=response.body().string();
-                    //Log.e(TAG, "Response" + response.body().string());
+                    Log.e(TAG, "Response" + json_obj);
 
                     try {
                         // get JSONObject from JSON file
