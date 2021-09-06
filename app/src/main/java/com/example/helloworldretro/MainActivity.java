@@ -56,9 +56,13 @@ public class MainActivity extends AppCompatActivity {
                         JSONArray jsonArray=new JSONArray(json_obj);
                         JSONObject obj = jsonArray.getJSONObject(0);
                         // fetch JSONObject named employee
-                        JSONObject employee = obj.getJSONObject("employee");
+                       // JSONObject employee = obj.getJSONObject("users");
+                        JSONArray employee = obj.getJSONArray("users");
+                        ///index of json obj
+                        //JSONObject emp=employee.getJSONObject(0);
+                        JSONObject emp=employee.getJSONObject(1);
                         // get employee name and salary
-                        hello = employee.getString("string");
+                        hello = emp.getString("name");
                        // salary = employee.getString("salary");
                         // set employee name and salary in TextView's
                         textView.setText(hello);
