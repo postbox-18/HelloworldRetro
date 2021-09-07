@@ -75,11 +75,7 @@ public class MainActivity extends AppCompatActivity {
                     //JSONObject jsonObject=response.body().string();
                     ///https://www.tutorialspoint.com/android/android_json_parser.htm
                     //https://abhiandroid.com/programming/json
-                    /*
-                    * http://192.168.0.31/PatientPortals/api/login
 
-username:kavitha
-password:aosta*/
 
                    // textView.setText();
                     //1. string to json
